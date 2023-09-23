@@ -1,6 +1,6 @@
 
 
-#C++标准模板库（STL）
+# C++标准模板库（STL）
 
 
 
@@ -52,7 +52,7 @@ for(auto& it:mySet){
 
 ## ☆vector
 
-#####声明&初始化 :
+##### 声明&初始化 :
 
 ```c++
 //声明
@@ -107,10 +107,10 @@ struct Role{
         return name < other.name; // 这里可以根据具体需求自定义比较规则
     }
 };
-set<role> role;
+set<Role> role;
 ``````
 
-#####函数&用法 ：
+##### 函数&用法 ：
 
 ``````c++
 mySet.size();
@@ -134,7 +134,7 @@ string str;
 string str="abcd";
 ``````
 
-#####函数&用法 ：
+##### 函数&用法 ：
 
 ``````c++
 //string加法（+，+=），将两个string拼起来
