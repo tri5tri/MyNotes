@@ -358,7 +358,7 @@ struct Role{
     }
 };
 //然后就跟基本元素的优先级设置一样了，比如：
-priority_queue<Role, vector<Role>, less<Role> >q;
+priority_queue<Role, vector<Role>, less<Role> >q; // 注意！！！只能用less,不能用greater
 
 //三、如果元素是容器
 // 自定义比较类
